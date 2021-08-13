@@ -1,0 +1,25 @@
+body {
+    font-family: 'Montserrat';
+    padding: 37vh;
+    background:#33323c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section.is-shown {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity .5s;
+}
+
+.section {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+.editor {
+    height: 100vh;
+    border: 1px solid white;
+}

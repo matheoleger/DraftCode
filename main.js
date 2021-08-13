@@ -11,7 +11,8 @@ function createWindow () {
   mainWindow = new BrowserWindow({
     width: 1920, 
     height: 1080,
-    icon: 'assets/logo/logo_v2_draftcode_color_bg_no_transparent.png',
+    backgroundColor: '#393939',
+    icon: 'assets/logo/logo__v3_draftcode_color_bg_circle.png',
     title: 'DraftCode: Draft your code !',
     webPreferences: {
       nodeIntegration: true,
@@ -20,6 +21,8 @@ function createWindow () {
   });
 
   mainWindow.loadURL(`file://${__dirname}/src/html/index.html`); // on doit charger un chemin absolu
+
+  mainWindow.maximize()
 
   mainWindow.on('closed', () => {
     mainWindow = null;
