@@ -1,2 +1,2 @@
 # DraftCode
-With this desktop application, you can draft any things for a code ! 
+With this desktop application, you can draft anything for a code ! 
