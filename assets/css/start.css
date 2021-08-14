@@ -1,7 +1,7 @@
 .start-element {
     margin-top: auto;
     overflow: hidden;
-    width: 90vw;
+    /* width: 90vw; */
     display: flex;
     justify-content:center;
     align-items: center;
