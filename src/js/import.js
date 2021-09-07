@@ -1,4 +1,4 @@
-let files = ["../html/start.html", "../html/navbar.html", "../html/editor.html"]
+let files = ["../html/start.html", "../html/navbar.html", "../html/editor.html", "../html/schema.html"]
 
 
 const loadPage = (pageElements) => {

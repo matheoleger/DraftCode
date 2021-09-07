@@ -3,7 +3,7 @@
     color: #f9f9f9;
 }
 
-.editor-element .tab-bar {
+/* .editor-element .tab-bar {
     display: flex;
     background-color: #2a2931;
     margin-left: 5px;
@@ -22,7 +22,7 @@
     color:#43424e;
     margin: auto 5px;
     cursor: pointer;
-}
+} */
 
 .editor-element .utilities-tab {
     display: flex;
