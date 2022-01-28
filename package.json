@@ -1,0 +1,20 @@
+{
+  "name": "draftcode",
+  "version": "1.0.0",
+  "description": "draft your code",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheoleger/DraftCode.git"
+  },
+  "author": "mleger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matheoleger/DraftCode/issues"
+  },
+  "homepage": "https://github.com/matheoleger/DraftCode#readme"
+}

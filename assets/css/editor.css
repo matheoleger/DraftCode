@@ -1,0 +1,50 @@
+.editor-element {
+    left: 300px;
+    color: #f9f9f9;
+}
+
+/* .editor-element .tab-bar {
+    display: flex;
+    background-color: #2a2931;
+    margin-left: 5px;
+}
+
+.editor-element .tab-bar div {
+    background-color: #33323c;
+    padding: 10px 0;
+    border-right: #43424e solid 3px;
+    width: 200px;
+    text-align: center;
+}
+
+.tab-bar h2 {
+    font-size: 24px;
+    color:#43424e;
+    margin: auto 5px;
+    cursor: pointer;
+} */
+
+.editor-element .utilities-tab {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.editor-element .languages-menu {
+    background: none;
+    padding: 5px;
+    font-size: 16px;
+    color:#f9f9f9;
+    border-radius: 10px;
+    border: solid 2px #6c63ff;
+    outline-style:none;
+}
+
+.editor-element .languages-menu option {
+    background-color: #33323c;
+}
+
+.editor {
+    height: 100vh;
+    border: 2px solid #43424e;
+}
